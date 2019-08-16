@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 import creation.DynamicArray;
 
 class DynamicArrayTestCases {
-	
+	 
 	private DynamicArray dyn= new DynamicArray<String>(2);
 	
 	@Test
