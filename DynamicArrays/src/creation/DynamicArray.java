@@ -5,7 +5,7 @@ public class DynamicArray<String> {
 	private Object[] data;
 	private int initialCapacity;
 	private  int size;
-	
+	  
 	public DynamicArray(int initialCapacity) {
 		
 		this.initialCapacity = initialCapacity;
