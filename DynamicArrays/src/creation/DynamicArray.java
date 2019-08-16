@@ -22,6 +22,11 @@ public class DynamicArray<String> {
 		 data[index] = value;
 	}
 	
+	public void insert(int index, String value) {
+		data[index] = value;
+		
+	}
+	
 	
 	
 	
