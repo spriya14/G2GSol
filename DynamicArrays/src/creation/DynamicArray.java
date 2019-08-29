@@ -22,9 +22,36 @@ public class DynamicArray<String> {
 		 data[index] = value;
 	} 
 	
+	
 	public void insert(int index, String value) {
 		data[index] = value;
+		size++;
 		
+	}
+
+	public int size() {
+		
+		return size;
+	}
+	
+	public void delete(int index) {
+		data[index] = null;
+		size --;
+		
+	}
+	
+	public boolean isEmpty() {
+		if (size == 0) {
+			return true;
+		}
+		
+		return false;
+	}
+	
+	public boolean Contains(String value) {
+		
+		
+		return false;
 	}
 	
 	
