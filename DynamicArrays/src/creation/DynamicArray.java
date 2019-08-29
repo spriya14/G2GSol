@@ -36,8 +36,7 @@ public class DynamicArray<String> {
 	
 	public void delete(int index) {
 		data[index] = null;
-		size --;
-		
+		size --; 
 	}
 	
 	public boolean isEmpty() {
@@ -49,7 +48,12 @@ public class DynamicArray<String> {
 	}
 	
 	public boolean Contains(String value) {
-		
+		for (int i =0; i<= size;i++) {
+			String currentval = (String) data[i];
+			if (currentval == value) {
+				return true;
+			}
+		}
 		
 		return false;
 	}
